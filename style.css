@@ -1,4 +1,14 @@
+body{
+    background: lightgray;
+}
+
+
 footer{
     background-color: #f8f9fa;
     height: 50px;
+}
+
+#presentTeam{
+    color: blue;
+    background: lightgrey;
 }
