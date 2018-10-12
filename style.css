@@ -2,7 +2,6 @@ body{
     background: lightgray;
 }
 
-
 footer{
     background-color: #f8f9fa;
     height: 50px;
@@ -11,4 +10,5 @@ footer{
 #presentTeam{
     color: blue;
     background: lightgrey;
+    height: 60px;
 }
