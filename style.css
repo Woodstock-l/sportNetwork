@@ -1,7 +1,12 @@
+body{
+    background: lightgray;
+}
+
 footer{
     background-color: #f8f9fa;
     height: 50px;
 }
+
 
 #form{
     
@@ -15,6 +20,12 @@ footer{
 }
 
 #form .btn{
-    width: 100%;
+  width: 100%;}
+
+
+#presentTeam{
+    color: blue;
+    background: lightgrey;
+    height: 60px;
 
 }
