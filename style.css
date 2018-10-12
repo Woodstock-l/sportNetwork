@@ -2,3 +2,19 @@ footer{
     background-color: #f8f9fa;
     height: 50px;
 }
+
+#form{
+    
+    background-color: #fafafa;
+    box-shadow: 3px 3px 10px #d6d4d4, -3px -3px 10px #d6d4d4;
+    padding: 1.8em;
+}
+
+#form:hover{
+    box-shadow: 3px 3px 13px #cccaca, -3px -3px 13px #cccaca;
+}
+
+#form .btn{
+    width: 100%;
+
+}
