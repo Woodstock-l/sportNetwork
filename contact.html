@@ -37,18 +37,46 @@
         </nav>
     </nav>
 
-    <main style="margin: 65px;">
-        <h1 style="text-align: center; font-size: 200px;">Bienvenue<br>
-            sur<br>
-            Sport Network !</h1>
-    </main>
+    <section class="container-fluid">
+        <form class="row">
+            <div class="col-6 mt-5 mb-5 mx-auto" id="form">
+                <div class="form-group">
+                    <label for="name">Nom:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
 
-    <footer class="container-fluid pr-4 pt-3">
-        <div class="row justify-content-end">
-            <p>By Serge, Luce et Aurélien</p>
-        </div>
+                <div class="form-group">
+                    <label for="lastname">Prénom:</label>
+                    <input type="text" class="form-control" id="lastname">
+                </div>
+
+                <div class="form-group">
+                    <label for="mail">adresse mail</label>
+                    <input type="email" class="form-control" id="mail" placeholder="name@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2">Sujet:</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Description:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Valider</button>
+            </div><!--Fin col row bootstrap -->
+        </form>
+    </section>
+
+    <footer>
+        <p>By Serge, Luce et Aurélien</p>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
